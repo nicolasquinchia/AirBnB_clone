@@ -5,18 +5,28 @@
 import cmd
 from models.base_model import BaseModel
 from models import storage
+from models.user import User
+from models.city import City
+from models.amenity import Amenity
+from models.place import Place
+from models.review import Review
+from models.state import State
 
 
 class HBNBCommand(cmd.Cmd):
     """HBNBCommand, BNB Console
     """
     prompt = "(hbnb) "
-    __bnb_classes = {"BaseModel": BaseModel}
+    __bnb_classes = {"BaseModel": BaseModel,
+                     "User": User,
+                     "City": City, "Amenity": Amenity,
+                     "Place": Place, "Review": Review,
+                     "State": State}
 
     def emptyline(self):
         """Empty line + ENTER shouldn't execute anything
         """
-        pass
+        return
 
     def do_quit(self, line):
         """Quit command to exit the program
