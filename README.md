@@ -1,7 +1,7 @@
 # AirBnB clone - The console
 
 <p align="center">
-<img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20200702%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200702T050200Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ff9702fa25141ec26348e486857da02b84193628be40f0285b4eef00d43edbda">
+<img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20200702%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200702T055729Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9c4622f8d339618c7e44709c3c8066b8166c741362e2e4adeaef351756002f30.jpg">
 </p>
 
 The goal of the project is to deploy on a server a simple copy of the AirBnB website.
@@ -18,7 +18,7 @@ This abstraction will also allow you to change the type of storage easily withou
 The console will be a tool to validate this storage engine
 
 <p align="center">
-<img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/815046647d23428a14ca.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20200702%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200702T055729Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=2bbf5d26455d6a0beb55d61637a55d7d457df6a389954e597f7a8278f98b168d">
+<img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/815046647d23428a14ca.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20200702%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200702T055729Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=2bbf5d26455d6a0beb55d61637a55d7d457df6a389954e597f7a8278f98b168d.jpg">
 </p>
 
 ## What's a command interpreter?
