@@ -8,7 +8,7 @@
 .places h1 {
   text-align: left;
   font-size: 30px;
-  flex-basis: 100%;
+  flex-basis: 95%;
   margin-left: 20px;
   margin-bottom: 5px;
   z-index: -1;
@@ -21,10 +21,85 @@
   border: 1px solid #ff5a5f;
   border-radius: 4px;
   z-index: -1;
+  position: relative;
 }
 
 .places article h2 {
   font-size: 30px;
   text-align: center;
+  align-content: center;
   z-index: -1;
+}
+
+.places article .price_by_night {
+  color: #ff5a5f;
+  border: 4px solid #ff5a5f;
+  border-radius: 100%;
+  min-width: 60px;
+  height: 60px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  box-sizing: content-box;
+  right: 20px;
+  top: 13px;
+}
+
+.places article .information {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+.places article .information .max_guest {
+  display: inline-flexbox;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.places article .information .max_guest .max_guest_logo {
+  background-image: url("../images/icon_group.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 70px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.places article .information .number_rooms {
+  display: inline-flexbox;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.places article .information .number_rooms .number_rooms_logo {
+  background-image: url("../images/icon_bed.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.places article .information .number_bathrooms {
+  display: inline-flexbox;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.places article .information .number_bathrooms .number_bathrooms_logo {
+  background-image: url("../images/icon_bath.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 70px;
+  display: flex;
+  align-items: flex-start;
 }
